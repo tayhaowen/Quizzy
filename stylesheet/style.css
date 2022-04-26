@@ -1,0 +1,141 @@
+.logo{
+    overflow: visible;
+}
+
+.section1Title{
+    font-size: 50px;
+}
+.section1Tip{
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+}
+/* Section 2 */
+.section{
+    z-index: auto;
+}
+.navbar{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+
+.section2Title{
+    font-size: 80px;
+    color: yellow;
+    font-weight: bold;
+}
+.section2Sub{
+    font-size: 18px;
+}
+
+.form-control{
+    max-width: 30%;
+    margin-left: 34%; 
+}
+.username{
+    border-color: yellow;
+    color: yellow;
+}
+.username:hover{
+    border-color: white;
+    color: white;
+}
+
+.share{
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+    /*
+    position: relative;
+    margin-left: 1450px;
+    */
+}
+.share:hover{
+    color: yellow;
+    
+}
+
+.section2Card{
+    margin-left: 13%;
+}
+.level2{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #FBB917;
+    opacity: 0.5;
+}
+.card{
+    height: 200px;
+}
+.bi-play{
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.bi-lock{
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.bicycle{
+    max-width: 150px;
+}
+.level1Card{
+    background-color: #32CD32;
+}
+.car{
+    max-width: 150px;
+}
+.level3{
+    background-color: #E3242B;
+    opacity: 0.5;
+}
+.plane{
+    max-width: 150px;
+}
+/* Quiz 1 section */
+.quiz1Title{
+    font-size: 60px;
+    color: yellow;
+    font-weight: bold;
+}
+.quiz1Sub{
+    font-size: 18px;
+}
+.bicycleSVG{
+    overflow: visible;
+    max-width: 92%;
+}
+.bikeWheel{
+    transform-origin: center;
+    transform-box: fill-box;
+}
+.bikeWheel:hover ~ .bikeBody{
+    opacity: 0.5;
+}
+
+.quizCard{
+    height: 100%;
+    
+}
+.backBtn{
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+}
+/* Quiz 2 Section */
+.carSVG{
+    overflow: visible;
+    max-width: 92%;
+}
+.carWheel{
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+
